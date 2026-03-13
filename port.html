@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Balambika K </title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: "Poppins", sans-serif;
+}
+
+body{
+background: linear-gradient(135deg,#ffd6f6,#e9d5ff);
+color:#444;
+overflow-x:hidden;
+}
+
+/* FLOATING STARS */
+
+.star{
+position:fixed;
+font-size:20px;
+animation: float 6s infinite ease-in-out;
+opacity:0.8;
+}
+
+.star:nth-child(1){top:10%; left:15%;}
+.star:nth-child(2){top:40%; left:80%; animation-delay:2s;}
+.star:nth-child(3){top:70%; left:30%; animation-delay:1s;}
+.star:nth-child(4){top:20%; left:60%; animation-delay:3s;}
+
+@keyframes float{
+0%{transform:translateY(0)}
+50%{transform:translateY(-20px)}
+100%{transform:translateY(0)}
+}
+
+/* HEADER */
+
+header{
+text-align:center;
+padding:50px;
+}
+
+header h1{
+font-size:40px;
+color:#7c3aed;
+letter-spacing:1px;
+}
+
+/* KUROMI SECTION */
+
+.kuromi{
+text-align:center;
+margin-top:10px;
+}
+
+.kuromi img{
+width:120px;
+border-radius:20px;
+}
+
+/* CONTAINER */
+
+.container{
+width:80%;
+margin:auto;
+padding:20px;
+}
+
+/* CARDS */
+
+.card{
+background:white;
+padding:25px;
+margin:20px 0;
+border-radius:20px;
+box-shadow:0 10px 20px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-6px) scale(1.02);
+}
+
+h2{
+color:#9333ea;
+margin-bottom:12px;
+}
+
+/* SKILLS */
+
+.skill{
+margin-bottom:10px;
+}
+
+.bar{
+height:10px;
+background:#f0f0f0;
+border-radius:20px;
+overflow:hidden;
+}
+
+.progress{
+height:100%;
+background:linear-gradient(90deg,#c084fc,#ff9ed6);
+}
+
+.python{width:70%;}
+.java{width:40%;}
+.comm{width:85%;}
+.write{width:80%;}
+
+/* PROJECTS */
+
+.project{
+background:#faf5ff;
+padding:12px;
+border-radius:12px;
+margin-bottom:10px;
+}
+
+/* CONTACT */
+
+a{
+color:#7c3aed;
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+color:#666;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="star">⭐</div>
+<div class="star">💜</div>
+<div class="star">✨</div>
+<div class="star">🌙</div>
+
+<header>
+<h1>Balambika K</h1>
+
+<div class="kuromi">
+<!-- Replace with a Kuromi gif if you want -->
+<img src="https://media.tenor.com/2roX3uxz_68AAAAi/kuromi-sanrio.gif">
+</div>
+
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>About Me</h2>
+<p>
+I am Balambika K, currently pursuing my 3rd year in Computer Science and Engineering 
+at K Ramakrishnan College of Engineering. I enjoy programming and building projects 
+to improve my development skills.
+</p>
+</div>
+
+<div class="card">
+<h2>Education</h2>
+<p><b>College:</b> K Ramakrishnan College of Engineering</p>
+<p><b>School:</b> Vimala Matric Higher Secondary School</p>
+<p><b>Pincode:</b> 621010</p>
+</div>
+
+<div class="card">
+<h2>Skills</h2>
+
+<div class="skill">
+Python (Intermediate)
+<div class="bar"><div class="progress python"></div></div>
+</div>
+
+<div class="skill">
+Java (Beginner)
+<div class="bar"><div class="progress java"></div></div>
+</div>
+
+<div class="skill">
+Communication
+<div class="bar"><div class="progress comm"></div></div>
+</div>
+
+<div class="skill">
+Writing
+<div class="bar"><div class="progress write"></div></div>
+</div>
+
+</div>
+
+<div class="card">
+<h2>Projects</h2>
+
+<div class="project">
+<b>Online Booking System (Python)</b>
+<p>A system allowing users to book services online.</p>
+</div>
+
+<div class="project">
+<b>Online Bookstore Management System</b>
+<p>A platform for managing book inventory and orders.</p>
+</div>
+
+</div>
+
+<div class="card">
+<h2>Contact</h2>
+
+<p>Email:
+<a href="mailto:balambikakumaran@gmail.com">
+balambikakumaran@gmail.com
+</a>
+</p>
+
+<p>LinkedIn:
+<a href="#">Add your LinkedIn link</a>
+</p>
+
+</div>
+
+</div>
+
+<footer>
+© 2026 Balambika K
+</footer>
+
+</body>
+</html>
